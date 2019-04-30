@@ -7,6 +7,6 @@
 <title>weclome user</title>
 </head>
 <body>
-	<h1>Welcome
+	<h1>Welcome <%=request.getAttribute("name") %></h1>
 </body>
 </html>

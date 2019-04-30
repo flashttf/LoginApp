@@ -31,6 +31,7 @@ public class LoginController extends HttpServlet{
 		check=dao.loginUser(username, password);
 		if(check==true) {
 			System.out.println("Login Successfull");
+			req.setAttribute("name", username);
 			req.getRequestDispatcher("welcome.jsp").forward(req, resp);
 		}
 		else {
