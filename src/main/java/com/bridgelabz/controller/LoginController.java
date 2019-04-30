@@ -36,6 +36,7 @@ public class LoginController extends HttpServlet{
 		}
 		else {
 			System.out.println("password mismatch");
+			req.getRequestDispatcher("index.jsp").forward(req, resp);
 		}
 	}
 }
