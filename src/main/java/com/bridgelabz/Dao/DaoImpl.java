@@ -58,6 +58,5 @@ public class DaoImpl implements InterfaceDao{
 		user.setPassword(newpassword);
 		session.save(user);
 		tran.commit();
-		
 	}
 }
