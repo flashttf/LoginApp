@@ -1,0 +1,7 @@
+com/bridgelabz/controller/RegisterController.class
+com/bridgelabz/controller/ChangePassworController.class
+com/bridgelabz/pojo/User.class
+com/bridgelabz/controller/LoginController.class
+com/bridgelabz/HibernateUtil/HibernateUtility.class
+com/bridgelabz/Dao/InterfaceDao.class
+com/bridgelabz/Dao/DaoImpl.class
