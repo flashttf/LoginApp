@@ -7,7 +7,7 @@
 	<session-factory>
 		<property name="hibernate.connection.url">jdbc:mysql://login.ckks6p2nehzg.ap-south-1.rds.amazonaws.com:3306/Demo</property>
 		<property name="hibernate.connection.username">root</property>
-		<property name="hibernate.connection.password">admin@123</property>
+		<property name="hibernate.connection.password">password</property>
 		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
 		<property name="hibernate.dialect">org.hibernate.dialect.MySQLInnoDialect</property>
 		<property name="hibernate.show_sql">true</property>
